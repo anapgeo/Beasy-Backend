@@ -7,11 +7,11 @@ const port = 3000;
 app.use(bodyParser.json());
 
 const pool = mysql.createPool({
-  host: 'localhost',      // Your database host
-  user: 'root',  // Your database username
-  password: 'root',  // Your database password
-  database: 'beasy_db',  // Your database name
-  connectionLimit: 10     // Adjust the connection limit based on your needs
+  host: 'localhost',     
+  user: 'root',  
+  password: 'root',  
+  database: 'beazydb',  
+  connectionLimit: 10    
 });
 
 
